@@ -82,14 +82,36 @@ figcaption {
 }
 
 #biol-quick-nav {
-  width: 100%;
+  width: 80%;
   margin-left: 1vw;
 }
 
-#biol-links {
+#biol-links-card {
+  /*
   border: 2px solid rgba(205,205,205,1);
   border-radius: 6px;
+  */
   padding: 0 10px;
+}
+
+#biol-links-card > h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#biol-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#biol-links li {
+  text-align: center; 
+  border-bottom: 1px solid rgba(205,205,205,1);
+  border-radius: 6px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  color: rgba(204,0,0,1);
 }
 
 /* For use during emergencies such as COVID-19 */
@@ -155,7 +177,6 @@ figcaption {
 
   #biol-quick-nav {
     width: 100%;
-    padding-left: 1vw;
     margin-left: 0;
   }
 }
