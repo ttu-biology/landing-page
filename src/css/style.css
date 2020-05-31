@@ -107,11 +107,18 @@ figcaption {
 
 #biol-links li {
   text-align: center; 
-  border-bottom: 1px solid rgba(205,205,205,1);
-  border-radius: 6px;
+  border-bottom: 1px solid rgba(204,204,204,1);
+  border-radius: 3px;
+  margin-bottom: 0;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 1.2rem;
   color: rgba(204,0,0,1);
+}
+
+#biol-links li:hover{
+  background-color: rgba(204,204,204,1);
+  border: 1px solid rgba(104,104,104,1);
 }
 
 /* For use during emergencies such as COVID-19 */
