@@ -36,7 +36,7 @@ section > h5 {
 }
 
 #landing-content {
-  padding-left: 2vw;
+  padding-left: 1vw;
 }
 
 #graduation-congratulations {
@@ -82,8 +82,14 @@ figcaption {
 }
 
 #biol-quick-nav {
-  width: 100vw;
-  padding-left: 2vw;
+  width: 100%;
+  margin-left: 1vw;
+}
+
+#biol-links {
+  border: 2px solid rgba(205,205,205,1);
+  border-radius: 6px;
+  padding: 0 10px;
 }
 
 /* For use during emergencies such as COVID-19 */
@@ -128,11 +134,28 @@ figcaption {
 
   #biol-quick-nav {
     padding-left: 0;
+    margin-left 0;
   }
 
   #chair-portrait {
     height: 250px;
     width: auto;
     border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  #twitter-aside {
+    min-width: 250px;
+  }
+
+  #landing-content {
+    padding-left: 1vw;
+  }
+
+  #biol-quick-nav {
+    width: 100%;
+    padding-left: 1vw;
+    margin-left: 0;
   }
 }
