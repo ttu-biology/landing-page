@@ -100,3 +100,28 @@ figcaption {
 .emergency-banner > *  {
 	color: rgb(30,30,30);
 }
+
+@media screen and (max-width: 1365px) {
+  #twitter-aside {
+    display: none;
+  }
+
+  #landing-main {
+    flex-direction: column;
+    padding: 0 1vw;
+  }
+
+  #landing-content {
+    padding-left: 0;
+  }
+
+  #biol-quick-nav {
+    padding-left: 0;
+  }
+
+  #chair-portrait {
+    height: 250px;
+    width: auto;
+    border-radius: 6px;
+  }
+}
