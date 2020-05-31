@@ -1,5 +1,58 @@
-*{
+* {
   margin:0;
   padding:0;
   border:0;
+}
+
+section > h1,
+section > h2,
+section > h3,
+section > h4,
+section > h5 {
+}
+
+.l-main-pagecontent {
+  padding-top: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  padding: 0 2.6vw
+}
+
+#twitter-aside {
+  min-width: 250px;
+  width: 250px;
+  height: 75vh;
+}
+
+#landing-content {
+  padding-left: 1vw;
+}
+
+/* COVID-19 */
+.covid-19-banner {
+	background: rgba(204,0,0,0.5);
+	margin: 0px 0px 40px 0px;
+	padding:5px 30px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.covid-19-banner > h4 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.covid-19-banner > p {
+	font-size: 1.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.covid-19-banner > *  {
+	color: rgb(30,30,30);
 }
